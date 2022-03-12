@@ -51,6 +51,7 @@ const form = document.querySelector('form');
 
 function sendData( data ) {
   const XHR = new XMLHttpRequest(),
+  
         FD  = new FormData( form );
 
   // Push our data into our FormData object
